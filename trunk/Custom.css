@@ -1,0 +1,75 @@
+#facebook * {
+    background-color: #111 !important;
+    color: #bbb !important;
+    border-color: #333 !important;
+	border-collapse: collapse !important;
+}
+/*Header Styles*/
+#facebook #blueBar,
+#facebook #blueBar *,
+#facebook #pageHead,
+#facebook .uiTextareaAutogrow   {background-color: #333 !important;}
+
+#facebook #headNav .rfloat {margin-left:5px !important;
+					float:left !important;}
+					
+#facebook #pageNav #navAccount .navigation,
+#facebook #pageNav #navAccount .navSubmenu {background-color: #111 !important;}
+#facebook #pageNav #navAccount .navSubmenu input:hover, 
+#facebook #pageNav #navAccount .navSubmenu input:focus, 
+#facebook #pageNav #navAccount .navSubmenu input:active,
+#facebook #pageNav #navAccount .navSubmenu:hover, 
+#facebook #pageNav #navAccount .navSubmenu:focus,
+#facebook #pageNav #navAccount .navSubmenu:active {border: 1px solid #333 !important;
+																					background-color: #555 !important;
+																					color: #111 !important;}
+																					
+#facebook #navSearch .innerWrap {border: 1px solid #111 !important;}
+#facebook #navSearch .uiSearchInput input {padding-left: 2px !important;
+																	padding-top: 2px !important;
+																	background-color: #222 !important;}
+
+/*Chat side panel*/
+#facebook .fbSidebarGripper {border-top:1px solid #333 !important;
+											background-color:#555 !important;
+											border-bottom:2px solid #222 !important;
+											height:5px;}
+#facebook .fbChatSidebar {border-left:1px solid #333 !important;}
+#facebook .uiOverlay {border:1px solid #fff !important;}
+#facebook .fbNubButton {border:1px solid #333 !important;}
+#facebook .innerWrap .inputtext {-webkit-box-shadow:none !important;}
+#facebook .uiScrollableAreaGripper {background-color: #333 !important;
+													  border-color:#222 !important;}
+
+/*Timeline stuff*/
+#facebook .coverWrap img {z-index:98 !important;}
+#facebook .profilePicThumb, #facebook .scaledImageFitWidth {z-index:99 !important;}f
+#facebook #contentCol {border-left:2px solid #333 !important;}
+
+#facebook .pas {border-bottom:1px solid #333 !important;}
+
+#facebook .uiStream .uiStreamHeader .uiStreamHeaderChronologicalForm {z-index: 99 !important;}
+
+/*Left column*/
+#facebook .uiSideNav .item:hover {border-right: 1px solid #333 !important;}
+#facebook .uiSideNav .selectedItem .item, 
+#facebook .uiSideNav .selectedItem .item:hover, 
+#facebook .uiSideNav ul .selectedItem .subitem, 
+#facebook .uiSideNav ul .selectedItem .subitem:hover {background-color: #222 !important;}
+
+/*Right Column*/
+#facebook .rightColumnWrapper, #facebook #rightCol {display:none !important;}
+
+/*Random*/
+/*borders*/
+#facebook .groupsJumpCoverBorder {border-color:#222 !important;}
+#facebook .groupsJumpBarTop {border-color:#222 !important;}
+#facebook .uiListItem {border-color:#222 !important;}
+#facebook .uiListHorizontalItemBorder {border-color:#222 !important;}
+
+#facebook .tagsWrapper *,
+#facebook #fbPhotoTheaterTags,
+#facebook .tagsWrapper,
+#facebook #fbPhotoTheaterStageActions,
+#facebook .fbQuestionsPollClickTarget,
+#facebook .fbPhotosPhotoTagboxes {background:transparent!important;}
